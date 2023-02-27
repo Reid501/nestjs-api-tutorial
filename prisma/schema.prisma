@@ -23,7 +23,7 @@ model User {
 
   Bookmarks Bookmark[]
 
-    @@map("users")
+  @@map("users")
 }
 
 model Bookmark {
